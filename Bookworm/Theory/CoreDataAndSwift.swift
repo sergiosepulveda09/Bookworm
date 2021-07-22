@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CoreDataAndSwift: View {
-    @Environment(\.managedObjectContext) var moc
+    @Environment(\.managedObjectContext) var mocExample
     @FetchRequest(entity: Student.entity() , sortDescriptors: []) var students: FetchedResults<Student>
 
     var body: some View {
@@ -23,11 +23,11 @@ struct CoreDataAndSwift: View {
                 let lastNames = ["Granger", "Lovegood", "Potter", "Weasly"]
                 let chosenFirstName = firstNames.randomElement() ?? "Unknown"
                 let chosenLastName = lastNames.randomElement() ?? "Unknown"
-                let student = Student(context: self.moc)
+                let student = Student(context: self.mocExample)
                 student.id = UUID()
                 student.name = "\(chosenFirstName) \(chosenLastName)"
                 
-                try? self.moc.save()
+                try? self.mocExample.save()
             }
         }
     }
