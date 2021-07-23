@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8039E28D26A9D91E007EC591 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039E28C26A9D91E007EC591 /* AddBookView.swift */; };
+		8039E28F26AB31AD007EC591 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039E28E26AB31AD007EC591 /* RatingView.swift */; };
 		804F182626A93D9B00C12BB7 /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F182526A93D9B00C12BB7 /* BookwormApp.swift */; };
 		804F182826A93D9B00C12BB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F182726A93D9B00C12BB7 /* ContentView.swift */; };
 		804F182A26A93D9C00C12BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804F182926A93D9C00C12BB7 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8039E28C26A9D91E007EC591 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		8039E28E26AB31AD007EC591 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		804F182226A93D9B00C12BB7 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804F182526A93D9B00C12BB7 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		804F182726A93D9B00C12BB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,10 +71,11 @@
 				804F182726A93D9B00C12BB7 /* ContentView.swift */,
 				804F182926A93D9C00C12BB7 /* Assets.xcassets */,
 				804F182E26A93D9C00C12BB7 /* Persistence.swift */,
+				8039E28C26A9D91E007EC591 /* AddBookView.swift */,
 				804F183326A93D9C00C12BB7 /* Info.plist */,
 				804F183026A93D9C00C12BB7 /* Bookworm.xcdatamodeld */,
 				804F182B26A93D9C00C12BB7 /* Preview Content */,
-				8039E28C26A9D91E007EC591 /* AddBookView.swift */,
+				8039E28E26AB31AD007EC591 /* RatingView.swift */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				804F182F26A93D9C00C12BB7 /* Persistence.swift in Sources */,
 				804F183226A93D9C00C12BB7 /* Bookworm.xcdatamodeld in Sources */,
 				804F183F26A93E5C00C12BB7 /* CoreDataAndSwift.swift in Sources */,
+				8039E28F26AB31AD007EC591 /* RatingView.swift in Sources */,
 				8039E28D26A9D91E007EC591 /* AddBookView.swift in Sources */,
 				804F183D26A93E5C00C12BB7 /* BindingExample.swift in Sources */,
 				804F182826A93D9B00C12BB7 /* ContentView.swift in Sources */,
