@@ -17,5 +17,10 @@ SwiftUI/Swift/CoreData
 
 
 
+https://user-images.githubusercontent.com/66451506/128611519-8fc52837-f5f1-4705-ae51-3375042ffaec.mov
+
+
+
+
 # Inspirations
 Hacking with SwiftUI!
